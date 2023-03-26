@@ -1,0 +1,119 @@
+:root {
+  --color-text-main: #212121;
+  --color-text-secondary: #ffffff;
+  --color-text-tertiary: #757575;
+  --color-background-primary: #2f303a;
+  --color-background-secondary: #ffffff;
+  --color-background-tertiary: #f5f4fa;
+  --color-selection: #2196f3;
+  --color-border: #ececec;
+}
+body {
+  font-family: Roboto, Arial, sans-serif;
+  color: var(--color-text-main);
+  width: 1600px;
+}
+
+.text-header-large {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.text-header-big {
+  font-weight: 700;
+  font-size: 36px;
+}
+.text-header-medium {
+  font-weight: 700;
+  font-size: 14px;
+}
+.text-header-small {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+}
+.projects .text-header-big {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.projects .text-header-medium {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+.header {
+  font-weight: 500;
+  font-size: 14px;
+}
+.link-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+}
+.landing-page .button {
+  font-weight: 700;
+  font-size: 16px;
+}
+.filter .button {
+  font-weight: 500;
+  font-size: 16px;
+}
+.assets .description {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.team .description {
+  font-size: 16px;
+  line-height: 1.17;
+}
+.footer {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.inline * {
+  display: inline;
+}
+
+.columns-assets,
+.columns-team {
+  column-count: 4;
+}
+.columns-scope,
+.columns-projects {
+  column-count: 3;
+}
+
+.header {
+  height: 80px;
+  border-bottom: 1px solid var(--color-border);
+}
+.header .link,
+.footer .link {
+  text-decoration: none;
+  color: inherit;
+}
+.logo {
+  color: var(--color-selection);
+}
+.link-nav:hover,
+.link-contact:hover {
+  color: var(--color-selection);
+}
+.button:hover {
+  background-color: var(--color-selection);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+}
+.dark,
+.footer {
+  background-color: var(--color-background-primary);
+  color: var(--color-background-secondary);
+}
+.footer * {
+  font-style: normal;
+}
+.footer .link-contact {
+  opacity: 0.6;
+}
